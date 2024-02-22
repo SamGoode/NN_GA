@@ -13,7 +13,7 @@ void setup() {
   frameRate = 60;
   frameRate(frameRate);
   
-  brainLogger = new BrainLogger("C:\\Users\\samgo\\OneDrive\\Desktop\\AI_Brains");
+  brainLogger = new BrainLogger("AI_Brains"); //filepath which neural network will be downloaded and uploaded to
   
   keys = new Dictionary();
   keys.set(RIGHT, false);
